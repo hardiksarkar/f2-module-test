@@ -17,8 +17,8 @@ function findMyLocation() {
   function success(position) {
     const lat = position.coords.latitude;
     const long = position.coords.longitude;
-    latitide.textContent = `Lat : ${lat} °`;
-    longitude.textContent = `Long : ${long} °`;
+    latitide.textContent = `Latitude : ${lat} °`;
+    longitude.textContent = `Longitude : ${long} °`;
     findWeatherData(lat, long).catch(() => {
       console.log("Error in accessing data!");
     });
