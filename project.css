@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* landing page  */
+#landing-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #360369;
+}
+#landing-div *{
+    margin: 1rem;
+}
+#landing-div>h1{
+    font-size: 5rem;
+}
+#landing-div>button{
+    border: none;
+    padding: 0.7rem 6rem;
+    cursor: pointer;
+}
+#landing-div>button:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+/* weather page  */
+
+#upper{
+    background-color: #360369;
+    padding: 2rem;
+}
+
+#upper button{
+    background-color: #270846;
+    cursor: default;
+    border: none;
+}
+
+#lower{
+    padding: 2rem;
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+}
+
+#map>iframe{
+    width : 100%;
+    height: 60vh;
+}
+
+#lower>h1{
+    color: #360369;
+}
+
+#lower button{
+    background-color: #360369;
+    cursor: auto;
+    border: none;
+    margin: 0.3rem;
+}
