@@ -37,7 +37,7 @@ function findMyLocation() {
 }
 
 async function findWeatherData(lat, long) {
-  let url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}`;
+  let url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}`;
   let getWeather = await fetch(url);
   let weatherdata = await getWeather.json();
   let mapHtml = `<iframe
