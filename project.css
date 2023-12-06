@@ -18,6 +18,10 @@
 #landing-div *{
     margin: 1rem;
 }
+#landing-div>p{
+    text-shadow: 3px 3px 6px;
+    color: #e1c4ff;
+}
 #landing-div>h1{
     font-size: 15vw;
 }
